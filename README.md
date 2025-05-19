@@ -46,31 +46,49 @@ A full-stack task management application built with a Node.js/Express backend an
 ## Installation & Setup
 # Backend
 - Navigate to the backend folder:
-```cd backend```
+```
+cd backend
+```
 - Install dependencies:
-```npm install```
+```
+npm install
+```
 Create a `.env` file in backend (see Environment Variables).
 
 # Frontend
 - Open a new terminal and navigate to the frontend folder:
-```cd frontend```
+```
+cd frontend
+```
 - Install dependencies:
-```npm install```
+```
+npm install
+```
 
 # Environment Variables
 In `backend/.env:`
-```MONGO_URI=your_mongodb_connection_string
+```
+MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-PORT=5000```
+PORT=5000
+```
 
 # Running the App
 - Start the backend server:
-```cd backend```
-```npm run dev```
+```
+cd backend
+```
+```
+npm run dev
+```
 Server will run on `http://localhost:5000`
 - Start the frontend:
-```cd frontend```
-```npm run dev```
+```
+cd frontend
+```
+```
+npm run dev
+```
 App will open in your browser at `http://localhost:3000` (or the port shown).
 
 # API Reference
