@@ -3,8 +3,8 @@ A full-stack task management application built with a Node.js/Express backend an
 
 ## Table of Contents
 - [Features](#features)
-- [Project Structure](#project)
-- [Installation & Setup](#installation)
+- [Project Structure](#project structure)
+- [Installation & Setup](#installation & setup)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -23,25 +23,15 @@ A full-stack task management application built with a Node.js/Express backend an
 - Styling: CSS Modules / Tailwind (if used)
 
 ## Project Structure
-/task-tracker-app
-├── backend             # Express API server
-│   ├── config          # Database setup
-│   ├── controllers     # Route handlers
-│   ├── middleware      # Auth middleware
-│   ├── models          # Mongoose schemas
-│   ├── routes          # API routes
-│   ├── server.js       # Entry point
-│   ├── package.json
-│   └── .env            # Environment variables
+![Screenshot 2025-05-19 224323](https://github.com/user-attachments/assets/5b3fc605-6f0d-4e55-96c5-1fbbe2bda9f0)
 
-└── frontend            # React Vite app
-    ├── public          # Static assets & index.html
-    ├── src             # Source code
-    │   ├── pages       # Page components
-    │   ├── components  # Reusable UI components
-    │   └── lib         # API & utility functions
-    ├── package.json
-    └── vite.config.js/task-tracker-app
+## Screenshots
+![Home](https://github.com/user-attachments/assets/68b1ab2f-41a9-407b-8441-4b117806bdd0)
+![LoginForm](https://github.com/user-attachments/assets/62d88659-2702-4b57-af60-18bbe6dbb7d9)
+![SignupForm](https://github.com/user-attachments/assets/79b71042-9cba-4c1f-9175-09445f6ed453)
+![Dashboard](https://github.com/user-attachments/assets/5db88994-e6fc-43b3-a815-1f761e4c0a49)
+![Create New](https://github.com/user-attachments/assets/013b5496-0248-4642-95c7-0cbbb6b66242)
+![View Tasks](https://github.com/user-attachments/assets/e1f3f7ca-4e49-477e-a311-cb9932a9e7e5)
 
 ## Installation & Setup
 # Backend
@@ -113,4 +103,26 @@ Open a Pull Request
 Please ensure code follows existing style conventions and includes tests when applicable.
 
 ## License
-This project is licensed under the MIT License.
+```
+MIT License
+
+Copyright (c) 2025 sanku351
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
