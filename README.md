@@ -3,8 +3,8 @@ A full-stack task management application built with a Node.js/Express backend an
 
 ## Table of Contents
 - [Features](#features)
-- [Project Structure](#project structure)
-- [Installation & Setup](#installation & setup)
+- [Project Structure](#project-structure)
+- [Installation & Setup](#installation--setup)
 - [Contributing](#contributing)
 - [License](#license)
 
